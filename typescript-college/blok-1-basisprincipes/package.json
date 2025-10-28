@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build:single": "tsc src/intro-typescript.ts",
+        "build:project": "tsc -b",
+        "build:watch": "tsc -b --watch"
+    },
+    "dependencies": {
+        "typescript": "^5.9.3"
+    }
+}

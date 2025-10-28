@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // Waar de bronbestanden staan.
+    "rootDir": "./src",
+
+    // Waar de gecompileerde JavaScript-bestanden heen gaan.
+    "outDir": "./dist",
+
+    // "nodenext" betekent dat TypeScript moderne ES modules gebruikt, zoals Node ze nu ondersteunt.
+    // Dit bepaalt hoe 'import' en 'export' worden omgezet naar JavaScript.
+    "module": "nodenext",
+
+    // Naar welke JavaScript-versie TypeScript compileert
+    // "esnext" is de nieuwste versie van JavaScript, en kan beperkte ondersteuning hebben in oudere browsers.
+    // Voor oudere browsers kan dit bijvoorbeeld "es2020" of "es2018" zijn.
+    "target": "esnext",
+
+    // Strict mode: alle belangrijke typechecks aan
+    // Dit omvat onder andere noImplicitAny en strictNullChecks
+    "strict": true,
+
+    // source maps maken debugging makkelijker
+    // Hiermee kun je debuggen in je originele TypeScript-code, in plaats van de gecompileerde code,
+    // ook al wordt er JavaScript uitgevoerd in de browser.
+    "sourceMap": true,
+  },
+
+  // Welke bestanden TypeScript moet meenemen.
+  "include": ["src"],
+
+  // Welke bestanden uitgesloten moeten worden.
+  "exclude": ["node_modules", "dist"]
+}

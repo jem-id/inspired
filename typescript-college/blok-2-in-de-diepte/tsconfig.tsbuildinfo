@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/data/customerdata.ts","./src/data/productdata.ts","./src/definitions/orderdefinitions.ts","./src/definitions/productdefintions.ts","./src/definitions/userdefinitions.ts","./src/utils/arrayutils.ts","./src/utils/productutil.ts","./src/utils/uuidutils.ts"],"errors":true,"version":"5.9.3"}
